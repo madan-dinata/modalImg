@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Images</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Image Modal</h2>
+    <div class="row">
+      <div class="column">
+        <img class="myImg" src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7139.jpg" alt="Monitor" style="width: 100%; max-width: 300px" />
+        <img class="myImg" src="https://www.splitshire.com/wp-content/uploads/2020/10/SplitShire-20-5364-web.jpg" alt="Smartphone" style="width: 100%; max-width: 300px" />
+      </div>
+      <div class="column">
+        <img class="myImg" src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7175.jpg" alt="Notebook" style="width: 100%; max-width: 300px" />
+        <img class="myImg" src="https://www.splitshire.com/wp-content/uploads/2018/01/SplitShire-08343.jpg" alt="Laptop" style="width: 100%; max-width: 300px" />
+      </div>
+      <div class="column">
+        <img class="myImg" src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7139.jpg" alt="Monitor" style="width: 100%; max-width: 300px" />
+        <img class="myImg" src="https://www.splitshire.com/wp-content/uploads/2020/10/SplitShire-20-5364-web.jpg" alt="Smartphone" style="width: 100%; max-width: 300px" />
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close" onclick="modal.style.display = 'none'">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- Photo Grid -->
+<!-- <section id="myModal">
+  <div class="projects">
+    <img src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7139.jpg" class="project-image" id="myImg" alt="img-1" />
+  </div>
+  <div class="projects">
+    <img src="https://www.splitshire.com/wp-content/uploads/2020/10/SplitShire-20-5364-web.jpg" class="project-image" id="myImg" alt="img-2" />
+  </div>
+  <div class="projects">
+    <img src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7175.jpg" class="project-image" id="myImg" alt="img-3" />
+  </div>
+  <div class="projects">
+    <img src="https://www.splitshire.com/wp-content/uploads/2018/08/SplitShire-18-07913.jpg" class="project-image" id="myImg" alt="img-4" />
+  </div>
+  <div class="projects">
+    <img src="https://www.splitshire.com/wp-content/uploads/2018/01/SplitShire-08343.jpg" class="project-image" id="myImg" alt="img-5" />
+  </div>
+  <div class="projects">
+    <img src="https://www.splitshire.com/wp-content/uploads/2015/01/SplitShire-1453-1800x1200.jpg" class="project-image" id="myImg" alt="img-6" />
+  </div>
+  <div class="modal" id="myModal">
+    <span class="close" onclick="modal.style.display='none'">&times;</span>
+    <img class="modal-content" id="img01" />
+    <div id="caption"></div>
+  </div>
+</section> -->
